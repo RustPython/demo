@@ -31,15 +31,19 @@ while count < until:
             <select id="snippets">
                 
                     <option
-                         selected
+                        
+                    >fetch</option>
+                
+                    <option
+                         selected 
                     >fibonacci</option>
                 
                     <option
-                         selected
+                        
                     >fizzbuzz</option>
                 
                     <option
-                         selected
+                        
                     >mandelbrot</option>
                 
             </select>
@@ -48,6 +52,9 @@ while count < until:
         <div id="error"></div>
         <h3>Standard Output</h3>
         <textarea id="console" readonly>Loading...</textarea>
+
+        <h3>Interactive shell</h3>
+         <div id="terminal"></div>
 
         <p>Here's some info regarding the <code>rp.pyEval()</code> function</p>
         <ul>
