@@ -1,6 +1,6 @@
 textarea {
     font-family: monospace;
-    resize: none;
+    resize: vertical;
 }
 
 #code,
@@ -546,5 +546,13 @@ span.CodeMirror-selectedtext { background: none; }
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+
+.xterm-dim {
+    opacity: 0.5;
+}
+
+.xterm-underline {
+    text-decoration: underline;
 }
 
