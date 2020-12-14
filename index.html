@@ -14,8 +14,7 @@
             browser's devtools and play with <code>rp.pyEval('1 + 1')</code>
         </p>
         <div id="code-wrapper">
-            <textarea id="code">
-n1 = 0
+            <textarea id="code">n1 = 0
 n2 = 1
 count = 0
 until = 10
@@ -26,7 +25,6 @@ while count < until:
     print(n1)
     n1, n2 = n2, n1 + n2
     count += 1
-
 </textarea>
             <select id="snippets">
                 
@@ -95,6 +93,13 @@ while count < until:
                 <code>this</code> argument
             </li>
         </ul>
+
+        <p>
+            Limited Interaction with browser is possible from Python by using
+            the <code>browser</code> module. Browser APIs such as
+            <code>alert()</code>, <code>confirm()</code>, <code>prompt()</code>
+            and <code>fetch()</code> are included in the module.
+        </p>
 
         <a href="https://github.com/RustPython/RustPython">
             <img
